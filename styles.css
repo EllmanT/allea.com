@@ -41,15 +41,15 @@ nav {
   font-size: 1.5rem;
 }
 a {
-  color: gray;
+  color:gray;
   text-decoration: none;
   text-decoration-color: white;
 }
 a:hover {
-  color:rgb(0, 128, 164);
+  color:black;
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(0, 128, 164);
+  text-decoration-color: black;
 }
 
 .logo {
@@ -249,6 +249,7 @@ section {
 .about-details-container {
   justify-content: center;
   flex-direction: column;
+  
 }
 .about-containers,
 .about-details-container {
@@ -263,14 +264,14 @@ section {
   bottom: 2.5rem;
 }
 .details-container {
-  padding: 1.5rem;
-
+  padding: 1rem;
   flex: 1;
   background: white;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
   text-align: center;
+  border: rgb(0, 128, 164) 0.1rem solid;
+
+
 }
 .section-container {
   gap: 1rem;
@@ -278,8 +279,8 @@ section {
 }
 .section_pic-container {
   display: flex;
-  height: 400px;
-  width: 400px;
+  height: 500px;
+  width: 600px;
   margin: auto 0;
 }
 
@@ -303,6 +304,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  
 }
 .article-container {
   display: flex;
